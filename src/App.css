@@ -1,0 +1,49 @@
+body{
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+
+}
+
+button{
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.Box{
+  border-color: black;
+  border-radius: 40px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span{
+  font-size: 30px;
+}
+.one{
+  background-color: blue;
+}
+.two{
+  background-color: red;
+}
+.first{
+   max-width: 100%;
+  width: 500px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
